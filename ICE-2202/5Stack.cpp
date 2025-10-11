@@ -47,12 +47,11 @@ public:
         }
         else
         {
-            cout << "Stack elements are: ";
-            for (int i = 0; i <= top; i++)
+            cout << "Stack elements are: " << endl;
+            for (int i = top; i >= 0; i--)
             {
-                cout << arr[i] << " ";
+                cout << arr[i] << endl;
             }
-            cout << endl;
         }
     }
 };
